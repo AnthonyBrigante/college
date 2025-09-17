@@ -124,7 +124,7 @@ h2 {
   margin-top: 0;
 }
 
-/* Layout for programs page */
+/* programs page */
 .programs-layout {
   display: grid;
   grid-template-areas:
@@ -163,6 +163,8 @@ h2 {
   margin: 0;
   padding-left: 20px;
 }
+
+
 /* Waffle Menu Icon */
 .waffle-menu {
   position: fixed;
@@ -174,10 +176,10 @@ h2 {
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
-  z-index: 1000;
+  z-index: 1001;
 }
 
-/* Navbar Styles for waffel */
+/* Navbar Styles */
 nav {
   position: fixed;
   top: 0;
@@ -187,8 +189,8 @@ nav {
   background-color: #444;
   padding-top: 60px;
   transition: transform 0.3s ease;
-  transform: translateX(100%);
-  z-index: 999;
+  transform: translateX(100%); 
+  z-index: 1000;
 }
 
 nav ul {
@@ -208,10 +210,7 @@ nav ul li a {
   font-size: 18px;
 }
 
+
 nav.show {
   transform: translateX(0);
-}
-
-.hidden {
-  display: none;
 }
