@@ -7,18 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>About Brookdale</h1>
-  </header>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brookdale Example</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
   <!-- Waffle Menu -->
   <div class="waffle-menu" onclick="toggleMenu()">☰</div>
 
@@ -28,22 +16,16 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="info.html">Info</a></li>
       <li><a href="programs.html">Programs</a></li>
-    
     </ul>
   </nav>
 
-  <main>
-    <h1>Welcome to Brookdale</h1>
-    <p>This is your page content.</p>
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <header>
+    <h1>About Brookdale</h1>
+  </header>
 
   <main class="info-layout">
-   
-    <section class="wide">
+
+    <section class="info-box wide">
       <h2>Location & Contact</h2>
       <p><strong>Address:</strong> 765 Newman Springs Rd, Lincroft, NJ 07738-1597</p>
       <p><strong>Phone:</strong> (732) 224-2345</p>
@@ -52,10 +34,8 @@
       </p>
     </section>
 
-    <!-- Video Placeholder -->
-    <section class="small">
+    <section class="info-box small">
       <h2>Campus Video</h2>
-      <!-- Replace with actual video link later -->
       <video width="100%" controls>
         <source src="video/Brookdale Campus TOUR.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -63,8 +43,7 @@
       <p>Here is a tour of the Campus</p>
     </section>
 
-    
-    <section class="large">
+    <section class="info-box large">
       <h2>Mission & Values</h2>
       <p><strong>Mission:</strong> Brookdale Community College empowers a diverse community by providing open access to high-quality and cost-effective educational and lifelong learning options with clear paths to personal, educational, and economic success.</p>
       
@@ -76,10 +55,14 @@
         <li>Diversity through inclusivity, human equity, and individual perspective</li>
       </ul>
     </section>
+
   </main>
 
   <footer>
     <button onclick="window.location.href='index.html'">Back to Home</button>
   </footer>
+
+  <!-- ✅ Link JavaScript at the bottom -->
+  <script src="script.js"></script>
 </body>
 </html>

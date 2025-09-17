@@ -214,3 +214,19 @@ nav ul li a {
 nav.show {
   transform: translateX(0);
 }
+/* Info & Program Boxes */
+.info-box {
+  background: #b47979; /* light gray */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 15px 0;
+  transition: all 0.3s ease; /* smooth transition */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+.info-box:hover {
+  background: #b40000;   /* light blue */
+  transform: scale(1.05); /* expand slightly */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
